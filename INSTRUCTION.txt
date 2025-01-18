@@ -1,0 +1,43 @@
+ИНСТРУКИЯ 
+
+Перейдите в папку: C:\ProgramData\Microsoft\Windows\Start Menu\Programs
+
+Создайте новую папку script
+
+Перенесите файлы из папки setup в новую папку C:\ProgramData\Microsoft\Windows\Start Menu\Programs\script.
+
+Создайте ярлык:
+
+  1.Кликните правой кнопкой мыши в папке script и выберите Создать > Ярлык.
+
+   Введите в сторку *укажите расположение обьекта*
+  
+   C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -NoProfile -File "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\script\back.ps1"
+
+
+   скопируте этот путь:  C:\ProgramData\Microsoft\Windows\Start Menu\Programs\script
+   
+   нажмите на ярлык Свойства -> сменить значок -> Обзор..
+
+   сверху в проводнике вставьте скопированый путь , выберет значек BACK.ico
+
+ 2.Кликните правой кнопкой мыши в папке script и выберите Создать > Ярлык.
+
+   Введите в сторку *укажите расположение обьекта*
+  
+   C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -NoProfile -File "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\script\add.ps1"
+
+
+   скопируте этот путь:  C:\ProgramData\Microsoft\Windows\Start Menu\Programs\script
+   
+   нажмите на ярлык Свойства -> сменить значок -> Обзор..
+
+   сверху в проводнике вставьте скопированый путь , выберете значек ADD.ico 
+   
+Нажмите ПУСК , в МЕНЮ ПРИЛОЖЕНИЙ найдите ПАПКУ script 
+
+ПКМ-> дополнительно -> закрепить на панели задач 
+           
+   поздравляю!
+
+
